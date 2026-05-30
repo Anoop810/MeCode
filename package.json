@@ -1,0 +1,8 @@
+{
+  "name": "mecode",
+  "version": "1.0.0",
+  "workspaces": ["packages/*"],
+  "scripts": {
+    "dev:me_code": "bun run --watch packages/me_code/src/index.tsx"
+  }
+}
